@@ -3,3 +3,20 @@
    padding: 0;
    box-sizing: border-box;
 }
+body{
+   border: 1px solid black;
+}
+#grid{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.game{
+    width: 500px;
+    height: 350px;
+    border: 1px solid black;
+    margin: auto;
+   
+}
