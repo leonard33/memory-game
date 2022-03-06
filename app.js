@@ -74,6 +74,10 @@ function flipcard(){
     const cardId = this.getAttribute('data-id')  //geting the card ID from the grid  : "this." refers to card in the grid
     choosenCard.push(cardArray[cardId].name) //attaching the cardarray with card and pushing it in an array for comparison
     this.setAttribute('src',cardArray[cardId].img)  //assigning the images to the grid card
-    console.log(choosenCard)
+    if (choosenCard.length==2){
+        setTimeout(checkMatch, 500)
+    }
 }
-
+function checkMatch(){
+    console.log('you matched')
+}
