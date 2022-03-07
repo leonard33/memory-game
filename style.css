@@ -2,9 +2,10 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   text-align: center;
 }
 body{
-   border: 1px solid black;
+   border: none;
 }
 #grid{
     width: 400px;
@@ -15,8 +16,25 @@ body{
 }
 .game{
     width: 500px;
-    height: 350px;
-    border: 1px solid black;
-    margin: auto;
+    height: 400px;
    
+    margin: auto;
+    
+    color: orange;
+    margin-top: 20px;
+}
+.card{
+    width: 100px;
+    border: 1px solid white;
+    display: flex;
+}
+#score{
+    height: 2rem;
+    
+    font-size: 1.5rem;
+    padding: 0 20px;
+}
+h4{
+    font-size: 2rem;
+    padding: 20px;
 }
