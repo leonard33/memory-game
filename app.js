@@ -1,51 +1,51 @@
 const cardArray = [
     {
         name: "fries",
-        img: '/assets/fries.png'
+        img: './assets/fries.png'
     },
     {
         name: "hotdog",
-        img: '/assets/hotdog.png'
+        img: './assets/hotdog.png'
     },
     {
         name: "cheeseburger",
-        img: '/assets/cheeseburger.png'
+        img: './assets/cheeseburger.png'
     },
     {
         name: "ice cream",
-        img: '/assets/ice-cream.png'
+        img: './assets/ice-cream.png'
     },
     {
         name: "milkshake",
-        img: '/assets/milkshake.png'
+        img: './assets/milkshake.png'
     },
     {
         name: "pizza",
-        img: '/assets/pizza.png'
+        img: './assets/pizza.png'
     },
     {
         name: "fries",
-        img: '/assets/fries.png'
+        img: './assets/fries.png'
     },
     {
         name: "hotdog",
-        img: '/assets/hotdog.png'
+        img: './assets/hotdog.png'
     },
     {
         name: "cheeseburger",
-        img: '/assets/cheeseburger.png'
+        img: './assets/cheeseburger.png'
     },
     {
         name: "ice cream",
-        img: '/assets/ice-cream.png'
+        img: './assets/ice-cream.png'
     },
     {
         name: "milkshake",
-        img: '/assets/milkshake.png'
+        img: './assets/milkshake.png'
     },
     {
         name: "pizza",
-        img: '/assets/pizza.png'
+        img: './assets/pizza.png'
     }
     
 ]
